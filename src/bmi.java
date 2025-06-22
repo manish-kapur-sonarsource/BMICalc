@@ -21,7 +21,7 @@ public class BMICalculator {
         // Calculate BMI using the formula: weight / (height * height)
         double bmi = weight / (height * height);
 
-        return bmi;
+        return bmi
     }
 
     public static void main(String[] args) {
@@ -33,7 +33,7 @@ public class BMICalculator {
         System.out.print("Enter your height in meters: ");
         double height = scanner.nextDouble();
 
-        scanner.close();
+        scanner.close(;
 
         try {
             double bmi = calculateBMI(weight, height);
